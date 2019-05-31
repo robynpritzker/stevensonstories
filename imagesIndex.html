@@ -1,0 +1,21 @@
+---
+layout: page
+title: Short story images
+---
+<head>
+    <style>
+        .imagesContainer {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
+    </style>
+</head>
+<div class="imagesContainer">
+{% for image in site.static_files %}
+    {% if image.path contains 'images' %}
+        <a href="{{ site.baseurl }}{{ image.path }}" target="_blank"><img style="padding:5px" width="200px" src="{{ site.baseurl }}{{ image.path }}" alt="image" /></a>
+    {% endif %}
+{% endfor %}
+</div>
