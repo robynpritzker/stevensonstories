@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+
+         <titleStmt>
+            <title>Four Short Stories: A Digital Edition</title>
+            <author>
+               <persName>Fanny Van de Grift Stevenson</persName>
+            </author>
+            <editor> R Pritzker </editor>
+            <principal> A Lang </principal>
+            <funder> Centre for Data, Culture, and Society: University of Edinburgh </funder>
+         </titleStmt>
+         <publicationStmt>
+            <ab><!-- unpublished manuscripts with permission of the Robert Louis Stevenson Museum in St. Helena, California--></ab>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>St. Helena, California</settlement>
+                  <repository>Robert Louis Stevenson Museum</repository>
+                  <idno>Scrapbook 1</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="ScribeA" scribeRef="FVS">Clear, cursive script</handNote>
+         </handNotes>
+      </profileDesc>
+   </teiHeader>
+
+
+
+   <text>
+      <body>
+         <pb/>
+         <div hand="#ScribeA">
+
+            <head type="title">The Hunchback</head>
+            <p>A boy older than his appearance would indicate was sitting sullenly alone in the
+               woods by the side of a stream. The water was clear and cool, flowers were blooming
+               among the grass, the sky was blue, a gentle air was stirring. The day was heavenly, a
+               calm and holy beauty pervaded all nature except the heart of this unfortunate
+               boy.</p>
+            <p>And yet he deserved some communication, for he seemed to be deformed. An elaborate
+               contrivance of straps and buckles passed around his shoulders, which appeared to be
+               hunched in a peculiar fashion. Years ago, when a lovely child with a face and temper
+               like an angels his parents, worthy people, had discovered that there was something
+               strange and unusual in his appearance totally unlike that of other children. They
+               were decent folk, and nothing had happened in their family for many generations out
+               of the usual course. All the men were straight and tall, married comely and excellent
+               housewives, and reared large families of the most eminent respectability. In short,
+               lived and died in the regular orthodox fashion. The distress and horror of all the
+               relatives may be imagined when the unsightly protuberance was first noticed. The lad
+               was pitied by his parents, and scoffed at by his brethren, all alike as two peas.</p>
+            <p>The physicians of his native place said “Let the child alone; give him some active
+               useful employment and trust to him. Don’t use too much force, for the boy is of more
+               delicate clay than the rest, and must be managed carefully.” But the parents in their
+               anxiety, the father being what is called a man handy with tools, had invented this
+               cruel arrangement of straps and buckles which seemed to have cut into the very soul
+               of the boy. He grew gloomy and despondent, dull at his books, and took no apparent
+               pleasure in the society of others of his age. The burden seemed to grow with his
+               years, to lie as heavily on his heart as on his shoulders. </p>
+            <pb/>
+            <p>This perfect summer day he had wandered off, as usual, by the banks of the little
+               stream. His brother had gone further up where the water was deeper, and trout were
+               said to be in the pools. At times their laughter came floating down so merry and
+               infectious that a smile almost reached the lips of the dull boy who stood brooding
+               over the water.</p>
+            <p>The wind rose somewhat, shaking down the autumn leaves in a shower at his feet,
+               brown, crimson and gold. The heavy eyes brightened at the sight with a sudden light,
+               like distant lightning after a tropical day. A brown bird began singing over his head
+               as it swung on a bough. Softly as first, then louder and stronger and fuller, such a
+               wild joyous rollocking ron de lay that the boy felt his pulses quicking and his heart
+               pounding with the harmony. The wind came stronger, with a breath of the sea. The song
+               of the brown bird filled all the air. The boy stood upright, and with eager hands
+               tore furiously at the ligatures that bound his shoulders. Buckles and straps parted
+               and fell rattling to the ground. A very curious thing happened. Released from their
+               bonds, two great wings of purple and gold quivered in the sunlight. A beauty not of
+               the earth shone in the face of the boy, with a quick glance upward he thrust aside
+               the overhanging leaves, pushed the air with his burnished wings and swept away
+               towards the east. The brown bird looked up, ceased its song, and hid its head beneath
+               its wing.</p>
+            <p>The next day, flying over the marshes to meet its love, in a bare and desolate place
+               it discerned a gleam of color. Swooping down to examine closer a thing so unusual it
+               found the poor boy dead and cold in the slump of the marsh. The muscles of his wings
+               for so many years unused to action had become flaccid and weak. In his elation at the
+               discovering of his marvellous powers he had miscalculated his strength, attempted too
+               high a flight, and thus failed miserably in this outset of his career, and so had
+               died in the mire, the green ooze rising about his face and his purple wings trailing
+               broken and soiled.</p>
+         </div>
+      </body>
+
+      <back>
+         <div type="editorial">
+            <listPerson>
+               <person xml:id="narratorC"> </person>
+               <person>
+                  <persName>the Hunchback</persName>
+                  <sex value="M"/>
+                  <trait type="species">
+                     <label>humanoid</label>
+                  </trait>
+               </person>
+               <person>
+                  <persName>Mother</persName>
+               </person>
+               <person>
+                  <persName>Father</persName>
+               </person>
+            </listPerson>
+            <interpGrp type="charActs">
+               <interp xml:id="grief">indicating a character's display of grief, sadness,
+                  loss.</interp>
+               <interp xml:id="fear">indicating a character's display of fear, anger, terror,
+                  distress.</interp>
+               <interp xml:id="joy">indicating a character's display of joy, happiness.</interp>
+               <interp xml:id="unsure">indicating a character's display of uncertainty, mistrust, or
+                  confusion.</interp>
+            </interpGrp>
+            <interpGrp type="genre">
+               <interp xml:id="gothic">Relating to themes, trends, conventions of the Gothic
+                  genre.</interp>
+               <interp xml:id="wonder">Relating to themes, trends, conventions of the wonder tale
+                  genre.</interp>
+            </interpGrp>
+         </div>
+      </back>
+   </text>
+</TEI>
