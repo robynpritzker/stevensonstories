@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+
+         <titleStmt>
+            <title>Four Short Stories: A Digital Edition</title>
+            <author>
+               <persName>Fanny Van de Grift Stevenson</persName>
+            </author>
+            <editor> R Pritzker </editor>
+            <principal> A Lang </principal>
+            <funder> Centre for Data, Culture, and Society: University of Edinburgh </funder>
+         </titleStmt>
+         <publicationStmt>
+            <ab><!-- unpublished manuscripts with permission of the Robert Louis Stevenson Museum in St. Helena, California--></ab>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>St. Helena, California</settlement>
+                  <repository>Robert Louis Stevenson Museum</repository>
+                  <idno>Scrapbook 1</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="ScribeA" scribeRef="FVS">Clear, cursive script</handNote>
+         </handNotes>
+      </profileDesc>
+   </teiHeader>
+
+
+
+   <text>
+      <body>
+         <pb/>
+         <div hand="#ScribeA">
+            <head type="title">Ah Choon and the Sorcerer</head>
+            <p> A Chinese fisherman of <placeName>Amoy</placeName> for many days had cast his nets
+               only to draw them to land empty. Walking the streets that he might there-by forget in
+               some degree the hunger that assailed him, he encountered a figure that arrested his
+               attention. It was that of a beggar apparently in the most abject destitution. His
+               skin was filthy, and he was clothed in rags; There was a weird strange look in his
+               eyes, and a gleam of intelligence at variance with his condition shone through the
+               dirt that encrusted his face. Ah Choon, the fisherman, felt that somewhere before he
+               had met the beggar when he presented a very different aspect. At last it occurred to
+               him that it must be an emperor’s sorcerer, who had probably chosen this disguise that
+               he might walk the streets undisturbed by the prayers and solicitations of those who
+               believed in his powers.</p>
+            <p>This great magician was said to know all things known to man or devils. He could
+               foretell deaths, and the rise and fall of empires, so great was his knowledge that
+               the spirits of the air had limited him in his prophecies. If he told all he knew
+               fierce lightning would burst from the sky and devour him in its fire.</p>
+            <p>Ah Choon bowed his head to the ground before the sorcerer and cried “give me
+               something I beseech you” Give me something, I beseech you or I will implore you
+               forever!”</p>
+            <p>“Rise my son,” said the sorcerer, “How can I give you what I have not myself? You see
+               I am but a wretched beggar; it is you who must give to me.”</p>
+            <p>Ah Choon still besought him until the old man losing patience thrust him on one side.
+               As he did so, Ah Choon snatched from his breast a handful of the beggar’s rags and
+               ran to cast his nets, throwing into them as he did a scrap of the rags. <pb/> The
+               nets came up bursting with fine large fish.</p>
+            <p>Ah Choon hied him to the market where he soon disposed of his fish for a good sum and
+               went home his pockets heavy with cash.</p>
+            <p>The next day he cast his nets again with the same good luck. But when he went to the
+               market to sell his fish a jabbering crowd surrounded him. “Cheat! Swindler” They
+               cried “Who sold us enchanted fish that were fat and large when we bought them, and
+               but empty air when we opened our baskets!”</p>
+            <p>The Fisherman turned pale. Here, my friends, he cried. choose from those I have
+               caught today, and if the same thing happens again you will help me to find and punish
+               the wicked sorcerer who has put a cheat both upon you and me!” And he told his story
+               to the gaping crowd.</p>
+            <p>When they turned to fill their baskets, no fish were there; only a few fresh leaves.
+               Ah Choon felt a chill at his back. Turning he beheld the sorcerer in his beggar’s
+               garb. All perceived him at the same moment.</p>
+            <p>“Tis he!” They cried, “Tear him to pieces!” And rushed forward to attack him. He
+               smiled. “One moment my children.” he said, “and you may do with me as you will. Let
+               me amuse you first.” As he said this he spat on the ground a black spittle into which
+               he dipped the end of his long finger and drew figures upon a white wall. As he drew
+               the figures sprang from under his fingers, writhing over the wall in a hideous
+               manner. The gaze of all who waited upon the little friends who leered at the
+               spectators changed heads with each other, spread their mouths from ear to ear in
+               demonish glee, struck at each other, and contorted their limbs. So frightful an
+               exhibition did it finally become that the mob with one accord turned and fled. Some
+               of the boldest looking back saw the sorcerer, still serenely smiling, strike the
+               figures dead with his staff, wrap with rags about him and melt into a light gray
+               cloud, which gradually dissolved into the air. After that time the fisherman’s luck
+               was variable, but he tried no more magic arts to increase his gains.</p>
+         </div>
+
+      </body>
+
+      <back>
+         <div type="editorial">
+            <listPerson>
+               <person xml:id="narratorD"> </person>
+               <person>
+                  <persName>Ah Choon</persName>
+                  <sex value="M"/>
+                  <trait type="species">
+                     <label>humanoid</label>
+                  </trait>
+               </person>
+               <person>
+                  <persName>Mermaiden</persName>
+               </person>
+               <person>
+                  <persName>Sorcerer of the Sea</persName>
+               </person>
+            </listPerson>
+            <interpGrp type="charActs">
+               <interp xml:id="grief">indicating a character's display of grief, sadness,
+                  loss.</interp>
+               <interp xml:id="fear">indicating a character's display of fear, anger, terror,
+                  distress.</interp>
+               <interp xml:id="joy">indicating a character's display of joy, happiness.</interp>
+               <interp xml:id="unsure">indicating a character's display of uncertainty, mistrust, or
+                  confusion.</interp>
+            </interpGrp>
+            <interpGrp type="genre">
+               <interp xml:id="gothic">Relating to themes, trends, conventions of the Gothic
+                  genre.</interp>
+               <interp xml:id="wonder">Relating to themes, trends, conventions of the wonder tale
+                  genre.</interp>
+            </interpGrp>
+         </div>
+      </back>
+   </text>
+</TEI>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         
+         <titleStmt>
+            <title>Four Short Stories: A Digital Edition</title>
+            <author>
+               <persName>Fanny Van de Grift Stevenson</persName>
+            </author>
+            <editor> R Pritzker </editor>
+            <principal> A Lang </principal>
+            <funder> Centre for Data, Culture, and Society: University of Edinburgh </funder>
+         </titleStmt>
+         <publicationStmt>
+            <ab><!-- unpublished manuscripts with permission of the Robert Louis Stevenson Museum in St. Helena, California--></ab>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>St. Helena, California</settlement>
+                  <repository>Robert Louis Stevenson Museum</repository>
+                  <idno>Scrapbook 1</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+         
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="ScribeA" scribeRef="FVS">Clear, cursive script</handNote>
+         </handNotes>
+      </profileDesc>
+   </teiHeader>
+
+
+   <text>
+      <body>
+         <pb/>
+         <div hand="#ScribeA">
+            <head type="title">Easy Reading for an Old Bachelor, the Story of The Ravening
+               Sheep</head>
+            <p>A weak minded sheep and her lamb once lived on a bit of barren land; there were
+               several small spots where clover grew, and a little shelter of old brush. They
+               were not well cared for, but they made the best of what they had, and were
+               reasonably happy. One day a she wolf brought over to their place, from her own
+               green fields, several sheep from her flock; they devoured all the clover that
+               was the only <subst>
+                  <del rend="overstrike">subsistence</del>
+                  <add place="supralinear">sustenance</add>
+               </subst> of the sheep and lamb, and carelessly threw over their shelter of
+               boughs.</p>
+            <p>It sounds odd that a she-wolf should have charge of a flock; but this was a wily
+               she- wolf; there were many wolves in the forest, and game was scarce and shy, so
+               she got a place with a shepherd as a sheepdog. The shepherd was blind, and old,
+               and foolish, and never knew the imposture. The neighbours, who were reluctant to
+               meddle in other people’s affairs, did not like, or did not choose to tell him;
+               so the she-wolf and her cubs waxed fast and strong, while her kinsmen of the
+               forest, gaunt and hungry roamed <pb/> about, seeking their prey.</p>
+            <p>It was not that she particularly wished to harm the sheep and lamb that the
+               she-wolf robbed them, but that her natural instincts inclining her to a
+               guerrilla life occasionally overcame the teachings of civilization.</p>
+            <p>It was hard upon the sheep and the lamb. A cold rain fell, and winter was not far
+               off. Before the clover had started to grow again, the shivering lamb was dead.
+               The sheep tried to warm it with her own body, but her wool was wet, and she,
+               too, was starved with the cold; she could only watch her lamb’s innocent eyes
+               grey, and its little legs stiffen, with a breaking heart. She could do nothing;
+               she could not replace the shelter, nor could she make the grass grow again,
+               though she would gladly have watered the grass with her blood, and torn the
+               fleece from her back to keep the cold from the lamb.</p>
+            <p>When the lamb was dead it was thrown into a hole. <span
+               ana="Stevenson_OgraphyV1.xml#grief" corresp="Stevenson_OgraphyV1.xml#sheep"
+               >The sheep, in her grief, hoped and thought she might die too; but she was
+               older and stronger and more used to hardship than the lamb, so, sad and
+               lonely, she held on and endured the cold and the hunger. Most of the time
+               she either stood gazing <pb/>at the hole where they had thrown her lamb, or
+               wandered about the bare pasture where it had frisked and played in happier
+               days. Once a cub of the she-wolf came that way; it was so plump, and sleek,
+               and well cared for, that when the bereaved sheep looked upon it she felt her
+               weak heart giving way because of the injustice of things, and in a mad rage
+               chased the wolf-cub howling away to its mother.</span></p>
+            <p>The next day the blind shepherd came in a great rage to the sheep. The wolf-cub
+               had come panting home with a fearful tale; the sheep, she said, had come at her
+               with a mouth a yard wide, full of blood and foam; with eyes the size of dinner
+               plates, from which shot blue and green flames, and with an awful, deafening roar
+               like a wild lion.</p>
+            <p>The sheep could not remember these details, but full of trouble went off alone to
+               think it over; and wondered if all this were really true, and she had actually
+               become a mad ravening sheep.</p>
+            <p>Soon she met the Haymaker who was fond of walking in paths and places where the
+               shadows were heavy. He was called the Haymaker because he was supposed to make
+               hay while the sun shone. All people went to him for advice, he was
+               <pb/>accounted so very wise; he was thought to be wise because he had many
+               books, and he looked solemn, and he often said “policy is better than honesty,”
+               “don’t whistle too much for your pay,” and other things that showed a profound
+               intellect, and a habit of deep thought. When he demanded the reason of the
+               sheep’s depression of mind, she, being in awe of so great a man, told her
+               story.</p>
+            <p>“I must tell you what to do,” said he.</p>
+            <p>“Oh no!” cried the sheep “you are so very respectable that it would never do that
+               you should mix yourself up in the affairs of a silly sheep, and a beast of
+               prey.”</p>
+            <p>The Haymaker insisted that she listen to him, and be guided by him.</p>
+            <p>“But I know myself what is best for me,” cried the sheep. “Let me go away off to
+               some quiet place where I can be quite alone. There I may be able to recover my
+               former tranquility of mind. As it is, I fear I am in too dangerous a state to be
+               allowed to roam about freely. It is a dreadful thing to find out that one is a
+               ravening sheep. How do I know, or how do you know, to what wild deed my fevered
+               mind may prompt me. Suppose I should suddenly spring upon the wild bull, drag
+               him to <pb/>the ground, and tear his vitals from his quivering body.</p>
+            <p>“That would, indeed, be horrible,” said the Haymaker; “but worse yet than that
+               may happen.”</p>
+            <p>“Worse than that!” Cried the sheep in an awe-stricken voice.</p>
+            <p>“Yes; there is a lower depth still,” and he spoke in a voice as hollow and
+               ghastly that a thrill went through the veins of the sheep, and chilled her very
+               heart.</p>
+            <p>“Suppose the pigs and the grasshoppers should find it out?”</p>
+            <p>With a cry of horror the sheep fell swooning upon the ground. She had never
+               thought of that. In her ignorance and stupidity she had thought nothing could be
+               worse than to know one’s self to be a ravening sheep; but oh heavens! That the
+               pigs and the grasshoppers should know!</p>
+            <p>Crushed and humiliated she was carried off to a small paddock by the sea; here
+               she nibbled grass on the hillside, and trotted by the beach, and might have
+               become reasonable, cheerful in her latter days, but for the awful dread that
+               always lay like a stone in her heart, “Suppose the pigs and the grasshoppers
+               should know.”</p>
+            <p>The Haymaker came in time to dislike all thought or mention of the sheep; for he,
+               too, was terrified lest the pigs and grasshoppers should know, and it should be
+               whispered about that a man as staid and respectable as he had once known a
+               ravening sheep.</p>
+         </div>
+      </body>
+      
+      <back>
+         <div type="editorial">
+            <listPerson>
+               <person xml:id="narratorB">
+               </person>
+               <person>
+                  <persName>Sheep</persName>
+                  <sex value="F"></sex>
+                  <trait type="species">
+                     <label>Sheep</label>
+                  </trait>
+               </person>
+               <person>
+                  <persName>Lamb</persName>
+               </person>
+               <person>
+                  <persName>she-wolf</persName>
+               </person>
+            </listPerson>
+            <interpGrp type="charActs">
+               <interp xml:id="grief">indicating a character's display of grief, sadness, loss.</interp>
+               <interp xml:id="fear">indicating a character's display of fear, anger, terror, distress.</interp>
+               <interp xml:id="joy">indicating a character's display of joy, happiness.</interp>
+               <interp xml:id="unsure">indicating a character's display of uncertainty, mistrust, or confusion.</interp>
+            </interpGrp>
+            <interpGrp type="genre">
+               <interp xml:id="gothic">Relating to themes, trends, conventions of the Gothic genre.</interp>
+               <interp xml:id="wonder">Relating to themes, trends, conventions of the wonder tale genre.</interp>
+            </interpGrp>
+         </div>
+      </back>
+   </text>
+</TEI>
